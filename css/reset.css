@@ -121,12 +121,8 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-<<<<<<< HEAD
 }
 
 input:focus {
   outline: none;
 }
-=======
-}
->>>>>>> 6514b794f1bd1e83d76c024eeb3494b9a28d86b8
