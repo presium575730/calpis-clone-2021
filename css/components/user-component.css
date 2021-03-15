@@ -52,3 +52,20 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component__text {
+  position: relative;
+}
+
+.user-component__dot {
+  background-color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  position: absolute;
+  justify-content: center;
+  right: -25px;
+  bottom: -1px;
+  color: tomato;
+  display: flex;
+}
