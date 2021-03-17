@@ -4,6 +4,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 15px;
+}
+
+.alt-header__column {
+    width: 32%;
 }
 
 .alt-header__title {
@@ -15,7 +20,15 @@
     margin-right: auto;
 }
 
+.alt-header__column:nth-child(2) {
+    text-align: center;
+}
 .alt-header__column:last-child {
     margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
 }
 
+.alt-header__column span:last-child {
+    margin-left: 20px;
+}
